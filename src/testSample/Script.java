@@ -36,6 +36,7 @@ public class Script {
 		driver.findElement(By.id("message-two")).click();
 		String total=driver.findElement(By.id("message-two")).getText();
 		System.out.println(total);
+		//comment for checking 
 		
 	}
 
